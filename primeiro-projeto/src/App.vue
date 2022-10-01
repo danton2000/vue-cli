@@ -1,28 +1,29 @@
+<!-- atalho "default.vue" cria o tempalte do vue -->
+
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>{{titulo}}</h1>
+    <button @click="titulo += '#'">Alterar</button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  export default{
+    //sistema de módulos(arquivos) do Node.js
+    //exportando um objeto
+    data(){
+      //como é um componente precisa ter uma "function()"
+      return{
+        titulo: "Teste data usando Vue JS"
+      }
+    }
   }
-}
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    background-color: purple;
+    color: #fff;
+  }
 </style>
+
