@@ -36,3 +36,21 @@ npm run build
 cat .vuerc
 ```
 # cria um arquivo json com todos os presets do vue-cli(neste PC) para a criação dos projetos
+
+# Adicionando novos pluggins com o projeto já "montado"(dentro da pasta do projeto)
+# Electron controi a aplicação para desktop
+```
+vue add electron-builder
+```
+# Startar a nossa aplicação vue em uma aplicação em desktop
+```
+npm run electron:serve
+```
+# Constuido a build da aplicacao feita com o electron
+```
+npm run electron:build
+```
+# Instalando um outro pluggin para layouts(varios components) para a nossa aplicação vue
+```
+vue add vuetify
+```
