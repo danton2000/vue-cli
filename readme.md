@@ -23,3 +23,8 @@ vue create nome_projeto
 
 ## O arquivo package-lock.json deixa as dependencias com as versões já estabelecidas para o projeto, vai sempre pegar as versao que está setadas nesse arquivo
 
+# Colocando o projeto para PRODUÇÃO
+```
+npm run build
+```
+# vai carregar uma basta dist que tem os arquivos q vao para produção
