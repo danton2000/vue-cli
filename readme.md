@@ -14,6 +14,8 @@ vue create nome_projeto
 ```
 ## precisa selecionar como vai qurer a instalacao do projeto, quais os recursos
 
+## voce tambem pode criar uma confguracao com suas instalacoes definadas por vc, e salvar essa preset(feature), para utilizar futuramente
+
 ## precisa ter a pasta node_modules para executar o servidor(npm run serve), as dependencias estao nessa pasta
 ## parecida com a pasta venv do python
 
@@ -28,3 +30,9 @@ vue create nome_projeto
 npm run build
 ```
 # vai carregar uma basta dist que tem os arquivos q vao para produção
+
+# user/nome-usuario
+```
+cat .vuerc
+```
+# cria um arquivo json com todos os presets do vue-cli(neste PC) para a criação dos projetos
